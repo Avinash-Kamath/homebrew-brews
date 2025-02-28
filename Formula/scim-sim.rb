@@ -10,14 +10,7 @@ class ScimSim < Formula
   depends_on "python"
 
   def install
-
       virtualenv_install_with_resources
-      ohai <<~EOS
-  ___  ___ ___ __  __   ___ ___ __  __
- / __|/ __|_ _|  \/  | / __|_ _|  \/  |
- \__ \ (__ | || |\/| | \__ \| || |\/| |
- |___/\___|___|_|  |_| |___/___|_|  |_|
-            EOS
   end
 
   test do
