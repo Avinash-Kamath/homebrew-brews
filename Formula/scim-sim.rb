@@ -10,14 +10,15 @@ class ScimSim < Formula
   depends_on "python"
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/01/62/9e7fa8bfae1f79b4d0ebaf8f1f1b57122fbbd5e216b6876e5897f4eb5f2c3bd/requests-2.28.2.tar.gz"
-    sha256 "98b1b2782e3c6c6353fbd1b6b007f81522fbbd5e216b6876e5897f4eb5f2c3bd"
+    url "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
+    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
   end
 
-  resource "Faker" do
-    url "https://files.pythonhosted.org/packages/source/F/Faker/Faker-18.0.0.tar.gz"
-    sha256 "02c9769b2d28982d06c22b39e2428b3414c14e18a8687c3a0f24f105a1af36e6"
+  resource "faker" do
+    url "https://files.pythonhosted.org/packages/55/8f/40d002bed58bd6b79bf970505582b769fc975afcacc62c2fe1518d5729c2/faker-36.1.1.tar.gz"
+    sha256 "7cb2bbd4c8f040e4a340ae4019e9a48b6cf1db6a71bda4e5a61d8d13b7bef28d"
   end
+
 
   def install
     virtualenv_install_with_resources
