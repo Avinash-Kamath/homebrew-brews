@@ -20,23 +20,23 @@ class ScimSim < Formula
   end
 
   resource "charset_normalizer" do
-    url "https://files.pythonhosted.org/packages/cc/1e/4de7b024b0e5a79f1a6a8d647d4aadbab9c4a8d4f9c1a7b5c3b5f8b5d0ce/charset_normalizer-2.1.1.tar.gz"
-    sha256 "75e9d32c1b8f2e8e4e7325a67f0a67e8a32f6c28ef3e1ea1b02da5f3d6c9cd16"
+    url "https://files.pythonhosted.org/packages/16/b0/572805e227f01586461c80e0fd25d65a2115599cc9dad142fee4b747c357/charset_normalizer-3.4.1.tar.gz"
+    sha256 "44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/8b/e1/87f9d3a8f2efb2d576c84c05bd06f0f51a52e66c4d2e8a4b8b7a8e4e5ed0/idna-3.4.tar.gz"
-    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
+    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/4e/9f/abcdef1234567890abcdef1234567890abcdef1234567890abcdef123456/urllib3-1.26.12.tar.gz"
-    sha256 "e2d9a3f7a5f9f0e2b68b8b88f7c1234567890abcdef1234567890abcdef12345"
+    url "https://files.pythonhosted.org/packages/aa/63/e53da845320b757bf29ef6a9062f5c669fe997973f966045cb019c3f4b66/urllib3-2.3.0.tar.gz"
+    sha256 "f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/37/f2/6a0a7a5e3d1e8b4f2a8c1d3e4f1b0a8a7c6d5e4f3c2b1a0f9e8d7c6b5a4c3d/certifi-2022.9.24.tar.gz"
-    sha256 "d1a5f1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
+    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
   end
 
   def install
